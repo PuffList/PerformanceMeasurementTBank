@@ -9,10 +9,11 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.openjdk.jmh.runner.options.TimeValue;
 
 @UtilityClass
-public class BenchmarkRunner {
+public class Main {
 
     private static final int WARMUP_ITERATIONS_TIME = 5;
     private static final int MEASUREMENT_ITERATIONS_TIME = 5;
+
     /**
      * Entry point for running JMH benchmarks.
      * This method configures and runs the benchmark tests.
